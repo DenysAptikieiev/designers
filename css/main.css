@@ -997,7 +997,7 @@ button:active button:hover button:focus {
     justify-content: flex-end;
     background-image: url(../img/different-figure.svg);
     background-size: 70%;
-    background-position: 22% 80%;
+    background-position: 0% 100%;
   }
 
   .wrapper .header-info .header-banner .big_ball {
