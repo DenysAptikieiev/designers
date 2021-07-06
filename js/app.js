@@ -38,7 +38,10 @@ showMore.addEventListener('click', function() {
   showMore.style.display = 'none';
 })
 
-checkout.addEventListener('click', () => footer.scrollIntoView(true));
+checkout.addEventListener('click', () => footer.scrollIntoView({
+  behavior: 'smooth',
+  block: 'start'
+}));
 
 menu.addEventListener('click', () => {
   menuLinks.classList.remove('hide');
